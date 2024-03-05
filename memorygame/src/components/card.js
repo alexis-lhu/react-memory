@@ -3,9 +3,10 @@ import classnames from "classnames";
 import laCarte from "../images/laCarte.png";
 import "./card.css";
 
-const Card = ({ onClick, card, index, isInactive, isFlipped, isDisabled }) => {
+const Card = ({ onClick, card, index, isInactive, isFlipped, isDisabled, triggerdemo }) => {
   const handleClick = () => {
     !isFlipped && !isDisabled && onClick(index);
+    triggerdemo();
   };
 
   return (

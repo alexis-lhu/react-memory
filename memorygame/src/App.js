@@ -48,10 +48,21 @@ function shuffleCards(array) {
   }
   return array;
 }
+function concatarray(array,level,actualLevel) {
+  if (actualLevel <= level) {
+    array = array.concat(array);
+    return concatarray(array,level, actualLevel + 1);
+  } else {
+    console.log(array);
+    return array;
+  }
+}
+//faire 3 boutons qui changent la veleur dans la ligne 63
 export default function App() {
   const [cards, setCards] = useState(
-    shuffleCards.bind(null, uniqueElementsArray.concat(uniqueElementsArray))
+    shuffleCards(concatarray(uniqueElementsArray, 3, 1))
   );
+  console.log(cards);
   const [openCards, setOpenCards] = useState([]);
   const [clearedCards, setClearedCards] = useState({});
   const [shouldDisableAllCards, setShouldDisableAllCards] = useState(false);
@@ -130,6 +141,8 @@ export default function App() {
     setCards(shuffleCards(uniqueElementsArray.concat(uniqueElementsArray)));
   };
 
+  const demo = () => {console.log('demo')};
+
   return (
     <div className="App">
       <header>
@@ -149,6 +162,7 @@ export default function App() {
               isInactive={checkIsInactive(card)}
               isFlipped={checkIsFlipped(index)}
               onClick={handleCardClick}
+              triggerdemo={demo}
             />
           );
         })}
