@@ -4,7 +4,7 @@ Bienvenue dans le jeu de Memory Flip Flap ! Un jeu classique de mémoire où vou
 
 ## Comment jouer
 
-1. **Lancement du jeu :** Ouvrez le fichier `index.html` dans un navigateur web ou lancez l'application React avec `npm start` dans le terminal.
+1. **Lancement du jeu :** Lancez l'application React avec `npm start` dans le terminal.
 
 2. **Objectif :** Trouvez toutes les paires de cartes identiques en utilisant votre mémoire.
 
