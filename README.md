@@ -30,6 +30,8 @@ Bienvenue dans le jeu de Memory Flip Flap ! Un jeu classique de mémoire où vou
 
 4. Accéder au jeu dans le navigateur : [http://localhost:3000](http://localhost:3000)
 
+5. Ou alors venez voir la version deployé en ligne à cette adresse : https://serene-almeida.185-171-202-140.plesk.page
+
 ## Auteur
 
 Telo Thomas - Alexis Lhussiez
