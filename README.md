@@ -14,14 +14,6 @@ Bienvenue dans le jeu de Memory Flip Flap ! Un jeu classique de mémoire où vou
 
 5. **Gagner le jeu :** Terminez le jeu en faisant correspondre toutes les paires avec le moins de mouvements possible.
 
-## Fonctionnalités
-
-- **Niveaux de difficulté :** Augmentez la difficulté en ajoutant plus de cartes à mesure que vous progressez.
-
-- **Chronomètre :** Mesurez le temps qu'il vous faut pour terminer le jeu.
-
-- **Meilleur score :** Enregistrez votre meilleur score dans le navigateur.
-
 ## Technologies utilisées
 
 - React
@@ -40,7 +32,7 @@ Bienvenue dans le jeu de Memory Flip Flap ! Un jeu classique de mémoire où vou
 
 ## Auteur
 
-[Votre Nom]
+Telo Thomas - Alexis Lhussiez
 
 ---
 
